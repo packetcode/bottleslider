@@ -1,0 +1,48 @@
+<!-- 
+ * BOTTLESLIDER - An Image Slider Plugin
+ * File : index.html
+ * Author : Krishna Teja G S
+ * Dated : 6th January 2015
+ * Github page : http://github.com/packetcode;
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>BottleSlider Demo</title>
+<link rel="stylesheet" type="text/css" href="bottle.min.css">
+<link rel="stylesheet" type="text/css" href="bottleslider.css">
+<script src="jquery-2.1.3.min.js"  type="text/javascript" ></script>
+<script type="text/javascript" src="bottleslider.js"></script>
+<style>
+.wrap{ padding:30px; }
+.box{ background: white; max-width:600px;margin: 20px auto; padding: 0px;}
+#first{max-width:800px;max-height:500px;}
+.capsule{ padding: 4px 8px; border-radius: 5px;}
+</style>
+<script>
+$(function(){
+	$('#first').bottleSlider();
+});
+</script>
+</head>
+<body class="bg-dp-dk-white">
+<div class="box ">
+<div id="first" class="bottleslider">
+    <img src="img/1.jpg" />
+    <img src="img/2.jpg" />
+    <img src="img/3.jpg" />
+    <img src="img/4.jpg" />
+</div>
+<div class="wrap">
+	<h1>Jquery Image Slider Demo</h1>
+	<p>Image slider on the homepage is a common functionality in most of the web templates... This is a demo for the tutorial on implementing jquery image slider using jquery and html from scratch </p>
+<hr>
+ a <span class="bg-dp-lt-yellow capsule" ><b><a href="http://packetcode.com">packetcode</a></b></span> production
+</div>
+
+
+</div>
+
+</body>
+</html>
